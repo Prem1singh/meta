@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+img{
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.navbar a,.navbar i{
+    color: rgb(81, 79, 79);
+}
+.navbar{
+    position: fixed;
+    width: 100vw;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    box-shadow: 0px 0px 1px black;
+    background-color: white;
+    z-index: 99;
+}
+.navleft{
+    display: flex;
+   align-items: center;
+    gap: 80px;
+}
+.nav>ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.navright{
+    display: flex;
+    gap: 20px;
+}
+.support{
+    padding: 10px 40px;
+    border-right: 1px solid rgb(152, 151, 151);
+}
+.shophid{
+
+    position: absolute;
+    top: 90px;
+    left: 0;
+    display: flex;
+    box-shadow: 2px 2px 1px rgb(179, 177, 177);
+    width: 100vw;
+    border-top: 1px solid rgb(188, 185, 185);
+    background-color: white;
+    padding: 20px 100px;
+    transform: scaleY(0.7);
+    transition: 0.5s;
+    transform-origin: top;
+    opacity: 0;
+    visibility: hidden;
+    
+}
+.shop:hover .shophid{
+    transform: scaleY(1);
+    opacity: 1;
+    visibility: visible;
+}
+.n1 .fa-solid{
+    transition: 0.5s;
+}
+.n1:hover .fa-solid{
+    transform: rotate(180deg);
+}
+.navhead{
+    color: rgb(124, 122, 122);
+    margin: 30px 0px;
+    text-transform: capitalize;
+}
+.r1{
+    padding: 20px 50px;
+}
+.r1>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.r1 a{
+    text-transform: capitalize;
+}
+.r1 img{
+    width: 150px !important;
+}
+.herosection{
+    padding: 100px;
+    width: 100vw;
+}
+.herohead{
+    font-size: 50px;
+    margin: 50px 0px;
+   
+}
+.herosection>h2{
+    padding: 20px;
+}
+.light{
+    color: rgb(102, 101, 101);
+}
+.herocard{
+    width: 45%;
+}
+
+img{
+    width: 100%;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.herocard2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+.flex{
+    display: flex;
+}
+.meta{
+    padding-bottom: 4px;
+    display: inline-block;
+    border-bottom: 2px solid blue;
+    width: 70px;
+    letter-spacing: 5px;
+    font-weight: normal;
+    font-size: 20px;
+    
+
+
+}
+.insta{
+    padding-bottom: 4px;
+    border-bottom: 2px solid rgb(242, 48, 132);
+    width: 150px;
+    letter-spacing: 5px;
+    font-weight: normal;
+    font-size: 20px;
+}
+.herosection h4{
+    font-weight: normal;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-size: 22px;
+}
+.llama{
+    width: 250px;
+}
+.cards p{
+    margin: 5px 0px;
+}
+.herodown{
+    display: flex;  
+    gap: 30px;
+    margin-top: 40px;
+}
+.herodown div{
+    width: 45%;
+}
+.herodown h1{
+    font-weight: normal;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.herodown p{
+    margin: 10px 0px;
+}
+.whatsapp{
+    border-bottom: 2px solid greenyellow;
+    width: 100px !important;
+    padding-bottom: 10px;
+}
+.f1{
+    width: 500px !important;
+}
+.desc{
+    font-size: 23px;
+    font-weight: normal;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.righthero{
+    display: flex;
+    width: 50% !important;
+    padding-top: 50px;
+}
+.righthero img{
+    width: 250px;
+
+}
+.years{
+    width: 100vw;
+    display: flex;
+    height: 500px;
+    background-color: #f7f7f7;
+}
+.leftyear{
+    width: 50%;
+    padding: 150px 40px 50px 60px ;
+   
+}
+.leftyear h1{
+    font-weight: normal;
+    margin: 20px 0px;
+    font-size: 40px;
+}
+.leftyear p{
+    margin: 10px 0px;
+}
+.rightyear{
+    width: 50%;
+
+}
+.rightyear img{
+    height: 100%;
+    width: 100% !important;
+}
+.news{
+    padding: 100px 50px;
+    color: rgb(42, 41, 41);
+}
+.news h4{
+    font-weight: 400 !important;
+    font-size: 15px;
+    color: black;
+    
+    margin: 20px 0px;
+}
+.newshead{
+    color: #677b8c;
+    text-transform: capitalize;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.news ul li{
+    margin-top: 15px;
+}
+.newslist{
+    color: #333;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+.newslist:hover{
+    font-weight: 500;
+}
+.presslinks{
+    background-color: #f7f7f7;
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.press{
+    font-size: 25px;
+    
+}
+footer{
+    width: 100vw;
+    padding: 80px 40px;
+    padding-bottom: 30px;
+}
+.footer{
+    display: flex;
+    gap: 140px;
+}
+.foot1 img{
+    width: 100px;
+}
+.brandicon{
+    display: flex;
+    gap: 10px;
+}
+.brandicon img{
+    width: 30px;
+    
+}
+.foothead{
+    color: #677b8c;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.footlist{
+    font-weight: 300;
+    font-size: 12px;
+    color: black;
+    text-transform: capitalize;
+
+}
+.footer li{
+    margin: 12px 0px;
+}
+.copyright{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+}
+.copyright ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.copyright select{
+    border: none;
+    padding: 10px 25px;
+    text-transform: capitalize;
+}
+.copyright select:focus-visible{
+    outline: none;
+}
+
+
+
